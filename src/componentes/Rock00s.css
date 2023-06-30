@@ -1,0 +1,8 @@
+.rock {
+    background-image: url(../Imagenes/Rock00s.png);
+}
+@media only screen and (max-width:400px) {
+    .rock{
+        background-size: contain;
+    }
+}

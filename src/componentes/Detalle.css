@@ -1,0 +1,41 @@
+.detalle {
+    background-color: rgba(240, 248, 255, 0.356);
+}
+.detalle h4 {
+    font-family: 'Chela One', cursive;
+    font-size: 30px;
+    color: rgb(128, 22, 43);
+    text-shadow: 3px -1px rgba(190, 243, 243, 0.774);
+    margin-bottom: 15px;
+}
+
+.detalle p {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: rgb(3, 18, 109);
+    text-shadow: 2px 3px rgba(99, 196, 252, 0.932);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.detalle p:last-child {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width:400px) {
+    .detalle h4 {
+        font-family: 'Chela One', cursive;
+        font-size: 20px;
+        color: rgb(128, 22, 43);
+        text-shadow: 3px -1px rgba(190, 243, 243, 0.774);
+        margin-bottom: 15px;
+    }
+    .detalle p {
+        font-family: 'Righteous', cursive;
+        font-size: 15px;
+        color: rgb(3, 18, 109);
+        text-shadow: 2px 3px rgba(99, 196, 252, 0.932);
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
