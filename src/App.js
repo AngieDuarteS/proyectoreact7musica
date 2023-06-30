@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Rock00s from './componentes/Rock00s';
 
 function App() {
-  const [logged, setLogged] = useState(true);
+  const [logged, setLogged] = useState(false);
   return (
     <div className="App">
       {logged ?
